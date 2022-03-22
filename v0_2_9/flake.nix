@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-crowngui-v0_2_9.flake = false;
+  inputs.src-crowngui-v0_2_9.ref   = "refs/tags/v0.2.9";
   inputs.src-crowngui-v0_2_9.owner = "bung87";
-  inputs.src-crowngui-v0_2_9.ref   = "v0_2_9";
   inputs.src-crowngui-v0_2_9.repo  = "crowngui";
   inputs.src-crowngui-v0_2_9.type  = "github";
   
