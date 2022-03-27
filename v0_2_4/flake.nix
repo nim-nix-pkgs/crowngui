@@ -11,6 +11,7 @@
   inputs.src-crowngui-v0_2_4.ref   = "refs/tags/v0.2.4";
   inputs.src-crowngui-v0_2_4.owner = "bung87";
   inputs.src-crowngui-v0_2_4.repo  = "crowngui";
+  inputs.src-crowngui-v0_2_4.dir   = "";
   inputs.src-crowngui-v0_2_4.type  = "github";
   
   inputs."nimble".owner = "nim-nix-pkgs";

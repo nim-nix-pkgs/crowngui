@@ -11,6 +11,7 @@
   inputs.src-crowngui-v0_2_7.ref   = "refs/tags/v0.2.7";
   inputs.src-crowngui-v0_2_7.owner = "bung87";
   inputs.src-crowngui-v0_2_7.repo  = "crowngui";
+  inputs.src-crowngui-v0_2_7.dir   = "";
   inputs.src-crowngui-v0_2_7.type  = "github";
   
   inputs."regex".owner = "nim-nix-pkgs";

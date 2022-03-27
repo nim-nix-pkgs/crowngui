@@ -11,6 +11,7 @@
   inputs.src-crowngui-master.ref   = "refs/heads/master";
   inputs.src-crowngui-master.owner = "bung87";
   inputs.src-crowngui-master.repo  = "crowngui";
+  inputs.src-crowngui-master.dir   = "";
   inputs.src-crowngui-master.type  = "github";
   
   inputs."regex".owner = "nim-nix-pkgs";
