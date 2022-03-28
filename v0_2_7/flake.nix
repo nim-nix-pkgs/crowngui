@@ -11,7 +11,6 @@
   inputs.src-crowngui-v0_2_7.ref   = "refs/tags/v0.2.7";
   inputs.src-crowngui-v0_2_7.owner = "bung87";
   inputs.src-crowngui-v0_2_7.repo  = "crowngui";
-  inputs.src-crowngui-v0_2_7.dir   = "";
   inputs.src-crowngui-v0_2_7.type  = "github";
   
   inputs."regex".owner = "nim-nix-pkgs";
@@ -30,13 +29,13 @@
   inputs."xlsx".inputs.nixpkgs.follows = "nixpkgs";
   inputs."xlsx".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."http://github.com/bung87/static_server".owner = "nim-nix-pkgs";
-  inputs."http://github.com/bung87/static_server".ref   = "master";
-  inputs."http://github.com/bung87/static_server".repo  = "http://github.com/bung87/static_server";
-  inputs."http://github.com/bung87/static_server".dir   = "";
-  inputs."http://github.com/bung87/static_server".type  = "github";
-  inputs."http://github.com/bung87/static_server".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."http://github.com/bung87/static_server".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github.com/bung87/static_server".owner = "nim-nix-pkgs";
+  inputs."github.com/bung87/static_server".ref   = "master";
+  inputs."github.com/bung87/static_server".repo  = "github.com/bung87/static_server";
+  inputs."github.com/bung87/static_server".dir   = "";
+  inputs."github.com/bung87/static_server".type  = "github";
+  inputs."github.com/bung87/static_server".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/bung87/static_server".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."jsonschema".owner = "nim-nix-pkgs";
   inputs."jsonschema".ref   = "master";
