@@ -271,7 +271,7 @@
         "nixpkgs": "nixpkgs",
         "objc_runtime": "objc_runtime",
         "regex": "regex_2",
-        "src-crowngui-master": "src-crowngui-master",
+        "src-crowngui-devel": "src-crowngui-devel",
         "static_server": "static_server",
         "xlsx": "xlsx"
       }
@@ -293,19 +293,19 @@
         "type": "github"
       }
     },
-    "src-crowngui-master": {
+    "src-crowngui-devel": {
       "flake": false,
       "locked": {
-        "lastModified": 1621133639,
-        "narHash": "sha256-kMAZyaI8vzaKFwTtrt9J2ZCP2lDKG+TQps2XjYD5t94=",
+        "lastModified": 1621677206,
+        "narHash": "sha256-E9I+oMG5ltAZcYn5a1U9iNMtsvRfydE+xgIhd4s/CME=",
         "owner": "bung87",
         "repo": "crowngui",
-        "rev": "18f9e7257fe2e78789b62ec610e9c850291c3465",
+        "rev": "4a850aa34d773d74b10e9b36a7493159ab57cb6c",
         "type": "github"
       },
       "original": {
         "owner": "bung87",
-        "ref": "refs/heads/master",
+        "ref": "refs/heads/devel",
         "repo": "crowngui",
         "type": "github"
       }
