@@ -61,6 +61,22 @@
   inputs."darwin".inputs.nixpkgs.follows = "nixpkgs";
   inputs."darwin".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."winim".owner = "nim-nix-pkgs";
+  inputs."winim".ref   = "master";
+  inputs."winim".repo  = "winim";
+  inputs."winim".dir   = "3_9_0";
+  inputs."winim".type  = "github";
+  inputs."winim".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."winim".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."goto".owner = "nim-nix-pkgs";
+  inputs."goto".ref   = "master";
+  inputs."goto".repo  = "goto";
+  inputs."goto".dir   = "";
+  inputs."goto".type  = "github";
+  inputs."goto".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."goto".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
     lib  = flakeNimbleLib.lib;
